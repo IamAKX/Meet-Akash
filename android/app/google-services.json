@@ -1,0 +1,48 @@
+{
+	"project_info": {
+		"project_number": "613552861191",
+		"firebase_url": "https://meet-akash.firebaseio.com",
+		"project_id": "meet-akash",
+		"storage_bucket": "meet-akash.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:613552861191:android:48eb12cdb28760cf",
+				"android_client_info": {
+					"package_name": "com.akashapplications.akashgiri.akash_giri"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "613552861191-8331op7au6ll24m9ve82bftb7mt06ege.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "com.akashapplications.akashgiri.akash_giri",
+						"certificate_hash": "9c45041be3b80486c4a7f5a705ee372dd0f402f5"
+					}
+				},
+				{
+					"client_id": "613552861191-setd4irbakthnlu3ekqbs1qd7jol3it6.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyAaOE3X0iX_r8tUTwp01J119KQgTxyr2KA"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "613552861191-setd4irbakthnlu3ekqbs1qd7jol3it6.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}
