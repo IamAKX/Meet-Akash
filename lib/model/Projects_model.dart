@@ -465,6 +465,42 @@ List<ProjectModel> projectList = [
       'Node js',
     ],
   ),
+  ProjectModel(
+    date: 'AUG 2019',
+    name: 'Sabka Insurance',
+    platform: 'Android',
+    description:
+        'This application is for keeping track of the customers and their vehicle and payment details for an Insurance business.',
+    link:
+        'https://play.google.com/store/apps/details?id=com.akashapplications.instainsure',
+    features: [
+      'Managing Customer',
+      'Managing Vehicle',
+      'Adding Vehicle Insurance quote',
+      'Keep track of Insurance dealing (Paid/Unpaid bill)',
+      'Generating reports',
+    ],
+    technologies: [
+      'Android',
+      'Local Preference',
+      'Spring Boot',
+    ],
+  ),
+  ProjectModel(
+    date: 'SEP 2019',
+    name: 'Video Streaming',
+    platform: 'Website',
+    description: 'This application is for live video streaming',
+    link: 'https://video-stream-iamakx.herokuapp.com',
+    features: [
+      'Live video streaming',
+      'Capture frames and store the image in base64 string',
+    ],
+    technologies: [
+      'Node.js',
+      'Web socket',
+    ],
+  ),
 ];
 
 List<ProjectModel> getProjectList() {
