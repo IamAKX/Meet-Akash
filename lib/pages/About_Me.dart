@@ -1,11 +1,13 @@
+import 'dart:developer';
+
 import 'package:akash_giri/constants/ColorRes.dart';
 import 'package:akash_giri/constants/Constants.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_launch/flutter_launch.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:whatsapp_unilink/whatsapp_unilink.dart';
 
 class AboutMe extends StatelessWidget {
   @override
@@ -168,9 +170,11 @@ class AboutMe extends StatelessWidget {
                     children: <Widget>[
                       InkWell(
                         onTap: () async {
-                          await FlutterLaunch.launchWathsApp(
-                              phone: PHONE_NUMBER,
-                              message: "Hey Akash! Wassup?");
+                          final link = WhatsAppUnilink(
+                              phoneNumber: PHONE_NUMBER,
+                              text: "Hey Akash! Wassup?");
+
+                          await launch('$link');
                         },
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
