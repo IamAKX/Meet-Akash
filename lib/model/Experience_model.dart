@@ -40,12 +40,21 @@ const List<ExperienceModel> experienceList = [
       technology: 'Java, Genesys',
       client: 'Client : Apple Inc.'),
   ExperienceModel(
-      date: 'AUG 2019 - PRESENT',
+      date: 'AUG 2019 - JUL 2021',
       company: 'Mahindra Comviva',
       logo: 'assets/image/comviva.png',
-      role: 'Computer Engineer',
+      role: 'Senior Software Engineer',
       jobType: 'Full time',
       place: 'Bangalore',
       technology: 'Java',
-      client: 'Client : Airtel, Africa')
+      client: 'Client : Airtel, Africa'),
+  ExperienceModel(
+      date: 'JUL 2021 - PRESENT',
+      company: 'Udaan',
+      logo: 'assets/image/udaan.png',
+      role: '  Application Developer',
+      jobType: 'Full time',
+      place: 'Bangalore',
+      technology: 'React Native, Kotlin',
+      client: 'Client : Self')
 ];

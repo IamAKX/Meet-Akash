@@ -38,7 +38,7 @@ List<ProjectModel> recentProjectList = [
     ],
   ),
   ProjectModel(
-    date: 'AUG 2019 - PRESENT',
+    date: 'AUG 2019 - JUL 2021',
     name: 'Airtel Africa Mobiquity',
     platform: 'Website',
     description:
@@ -56,6 +56,23 @@ List<ProjectModel> recentProjectList = [
       'Spring',
       'Hibernate',
       'J2EE',
+    ],
+  ),
+  ProjectModel(
+    date: 'JUL 2021 - PRESENT',
+    name: 'Udaan',
+    platform: 'Android',
+    description:
+        'Udaan is a network-centric B2B trade platform, designed specifically for small & medium businesses in India. It brings traders, wholesalers, retailers, manufacturers, and brands in India onto a single platform. With real insights into active trends and great B2B trade features, udaan brings to them the power of technology to scale & nurture their business.',
+    link: 'www.udaan.com',
+    features: [
+      'Design and development of udaan catalog module',
+      'Develop backend API',
+      'Feature development and enhancement of internal modules like console',
+    ],
+    technologies: [
+      'Kotlin',
+      'React native',
     ],
   ),
 ].reversed.toList();
